@@ -1,0 +1,56 @@
+/*  for element selector   */
+
+p,a{
+    color:aquamarine;
+}
+
+li{
+    list-style-type: square;
+}
+
+
+
+
+/*   for id or class selector   */
+
+.special{
+    color:brown;
+    font-weight: bold;
+}
+
+
+
+span.special, li.special
+{
+    color:orange;
+}
+
+
+
+/*  all the em tags in li */
+li em{
+    color:purple;
+}
+
+
+/* element immediatly next to h1 or down */
+
+h1+p{
+    color:blueviolet
+}
+
+
+
+
+/* pseudo class selector */
+a:hover{
+    color: pink;
+}
+
+
+body h1+p .special {
+      color:yellow;
+      padding:5px;
+      background-color: black;
+
+}
